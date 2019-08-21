@@ -33,9 +33,6 @@ class KsyunKecClient extends V4Curl
         $this->region = $_region;
         $this->parameters["region"] = $_region;
         $this->protocol = $_protocol;
-        if (["http","https"].indexOf(_protocol)<0) {
-            throw new Error('_protocol must be One of the ' + ["http","https"].join(';'));
-        }
         $this->parameters["protocol"] = $_protocol;
         $this->server = "kec";
         $this->parameters["server"] = "kec";
