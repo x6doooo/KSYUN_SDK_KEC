@@ -1,0 +1,22 @@
+{
+  "name": "kscsdk-test/KSYUN_SDK_KEC",
+  "description": "ksyun openapi sdk",
+  "type": "library",
+  "keywords": [
+    "openapi",
+    "ksyun"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5",
+    "guzzlehttp/guzzle": "~6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "KSYUN_SDK_KEC\\": "src/"
+    }
+  },
+  "config": {
+    "secure-http": false
+  }
+}
