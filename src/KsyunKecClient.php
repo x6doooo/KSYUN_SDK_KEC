@@ -1,7 +1,7 @@
 <?php
-namespace KSYUN_SDK_KEC;
+namespace ksyun_sdk_kec;
 
-use KSYUN_SDK_KEC\Base\V4Curl;
+use ksyun_sdk_kec\Base\V4Curl;
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 

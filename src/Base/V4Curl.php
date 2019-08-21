@@ -1,5 +1,5 @@
 <?php
-namespace KSYUN_SDK_KEC\Base;
+namespace ksyun_sdk_kec\Base;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;

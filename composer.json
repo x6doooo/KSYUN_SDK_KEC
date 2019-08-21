@@ -1,5 +1,5 @@
 {
-  "name": "kscsdk-test/KSYUN_SDK_KEC",
+  "name": "kscsdktest/ksyun_sdk_kec",
   "description": "ksyun openapi sdk",
   "type": "library",
   "keywords": [
@@ -13,7 +13,7 @@
   },
   "autoload": {
     "psr-4": {
-      "KSYUN_SDK_KEC\\": "src/"
+      "ksyun_sdk_kec\\": "src/"
     }
   },
   "config": {
